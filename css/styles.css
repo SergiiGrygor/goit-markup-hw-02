@@ -102,6 +102,14 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   color: #ffffff;
+  font-family: inherit;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 /* Feature */
 .visually-hidden {
@@ -167,7 +175,7 @@ body {
 }
 .address-list-item:hover,
 .address-list-item:focus {
-  color:var(--accent-clr);
+  color: var(--accent-clr);
 }
 
 /* Portfolio */
@@ -175,7 +183,7 @@ body {
 /* portfolio filters */
 .filter-button {
   font-family: inherit;
-  font-weight:500;
+  font-weight: 500;
   cursor: pointer;
   border: none;
   background-color: #f5f4fa;
@@ -187,7 +195,7 @@ body {
 .filter-button:hover,
 .filter-button:focus {
   background-color: var(--accent-clr);
-  color:var(--white-clr);
+  color: var(--white-clr);
 }
 .project-title {
   font-size: 18px;
